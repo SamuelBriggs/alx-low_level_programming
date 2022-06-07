@@ -1,6 +1,6 @@
-#include "main.h"
+#include "_putchar.h"
 /**
-** main - Lanzador
+**main - Lanzador
 **
 ** Return: Always 0
 *
