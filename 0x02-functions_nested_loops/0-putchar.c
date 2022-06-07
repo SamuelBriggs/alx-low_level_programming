@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-char holberton[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+char main[4] = {'M', 'a', 'i', 'n'};
 unsigned int c;
-for (c = 0; c < sizeof(holberton); c++)
+for (c = 0; c < sizeof(main); c++)
 {
-_putchar(holberton[c]);
+_putchar(main[c]);
 }
 _putchar('\n');
 return (0);
