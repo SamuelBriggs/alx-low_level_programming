@@ -1,17 +1,20 @@
-#include "_putchar.h"
+#include "main.h"
 /**
-**main - function to print
+**main - Entry point
+**desc - prints _putchar
 **
-** Return: 0
-*/
+** Return: Always 0 (success)
+**/
 int main(void)
 {
-char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-unsigned int c;
-for (c = 0; c < sizeof(_putchar); c++)
-{
-_putchar(_putchar[c]);
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 _putchar('\n');
 return (0);
 }
