@@ -1,17 +1,20 @@
 #include "main.h"
 /**
-**main - function to print
+** main - Lanzador
 **
-* Return: 0
+** Return: Always 0
+*
 */
 int main(void)
 {
-char main[4] = {'M', 'a', 'i', 'n'};
-unsigned int c;
-for (c = 0; c < sizeof(main); c++)
-{
-_putchar(main[c]);
-}
-_putchar('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n')
 return (0);
 }
