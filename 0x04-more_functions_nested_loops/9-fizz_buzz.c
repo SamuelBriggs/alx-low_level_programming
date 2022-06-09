@@ -5,25 +5,25 @@
 **/
 int main(void)
 {
-int h = 1;
-while (h <= 100)
+int i;
+for (i = 1; i < 100; i++)
+if (i % 15 == 0)
 {
-if (h % 3 == 0 && h % 5 == 0)
 printf("FizzBuzz ");
-else if (h % 5 == 0)
-{
-if (h == 100)
-{
-printf("Buzz");
-printf("\n");
 }
+else if (i % 5 == 0)
+{
 printf("Buzz ");
 }
-else if (h % 3 == 0)
+else if (i % 3 == 0)
+{
 printf("Fizz ");
-else
-printf("%d ", h);
-h++;
 }
+else
+{
+printf("%d " i);
+}
+printf("Buzz")
+prinf("\n")
 return (0);
 }
